@@ -1,0 +1,87 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: auto;
+  margin-top:150px;
+}
+
+#main {
+	width: 200px;
+	padding: 10px 10px 20px 10px;
+	margin: 20px auto;
+	background-color: #003300;
+	border-radius: 5px;
+	border: 6px solid #800000;
+	
+}
+
+#inp {
+	display: block;
+	margin: 20px auto;
+	height: 42px;
+	width: 174px;
+	padding: 0 15px;
+	border-radius: 5px;
+	border-top: 3px solid #C1C1C1;
+	border-right: 3px solid #C1C1C1;
+	border-bottom: 3px solid #FFF;
+	border-left: 3px solid #FFF;
+	background-color: #FFF;
+	box-shadow: inset 0px 0px 10px #030303, inset 0px -15px 1px rgba(150, 150, 150, .3);
+	font-size: 28px;
+	color: #666;
+	text-align: right;
+	font-weight: 350;
+}
+
+.button {
+	display: inline-block;
+	margin: 3px;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color: #FFF;
+	background-color: #800000;
+}
+
+.digits {
+	color: #181818;
+	text-shadow: 2px 1px 0px #FFF;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	border-radius: 4px;
+
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+	background-color: #800000;
+	
+	border: 2px solid #FFF;
+
+}
+
+#clearButton {
+	margin: 2px 2px 6px 2px;
+	color: #FFF;
+
+	background-color: #800000;
+
+
+}
